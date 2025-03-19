@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Kids Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Fun Kids Page!</h1>
+    </header>
+
+    <main>
+        <section>
+            <p id="changeText">Click the button to change this text!</p>
+            <button onclick="changeText()">Change Text</button>
+        </section>
+
+        <section>
+            <p id="styleText">Click the button to make this text colorful!</p>
+            <button onclick="changeStyle()">Change Style</button>
+        </section>
+
+        <section>
+            <div id="elementSection">
+                <p>Click the button to add or remove a fun emoji!</p>
+            </div>
+            <button onclick="addElement()">Add Emoji</button>
+            <button onclick="removeElement()">Remove Emoji</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Have fun exploring!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
